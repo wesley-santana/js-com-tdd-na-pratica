@@ -16,11 +16,6 @@
   "bugs": {
     "url": "https://github.com/wesley-santana/js-com-tdd-na-pratica/issues"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run lint"
-    }
-  },
   "homepage": "https://github.com/wesley-santana/js-com-tdd-na-pratica#readme",
   "devDependencies": {
     "eslint": "^7.17.0",
