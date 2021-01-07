@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx eslint ./src/*.js",
-    "pre-push": "npm run lint && npm run test"
   },
   "repository": {
     "type": "git",
@@ -16,6 +15,11 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wesley-santana/js-com-tdd-na-pratica/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
   },
   "homepage": "https://github.com/wesley-santana/js-com-tdd-na-pratica#readme",
   "devDependencies": {
